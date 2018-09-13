@@ -1,0 +1,59 @@
+// -----------------------------------------------------------------------------
+// This file contains all application-wide Sass variables.
+// -----------------------------------------------------------------------------
+
+// Import fonts
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700|Open+Sans:400,600,700');
+
+$brandFont : 'Roboto', sans-serif;
+$bodyFont : 'Open Sans', sans-serif;
+
+$header-height-small: 61px;
+
+/// Breakpoints map
+/// @prop {String} keys - Keys are identifiers mapped to a given length
+/// @prop {Map} values - Values are actual breakpoints expressed in pixels
+$breakpoints: (
+    'small' : 576px,
+    'medium': 768px,
+    'large' : 992px,
+    'huge'  : 1170px
+) !default;
+
+
+$grid-columns-tiny: 2;
+$grid-gutter-tiny: 16px;
+
+$grid-columns: 12;
+$grid-gutter: 30px;
+
+$grid-buffer: 88px;
+$grid-max-width: map-get($breakpoints, 'huge');
+
+$max-width-small: map-get($breakpoints, 'small');
+$max-width-medium: map-get($breakpoints, 'medium');
+$max-width-large: map-get($breakpoints, 'large');
+$max-width-huge: map-get($breakpoints, 'huge');
+
+/// Font weight map
+/// @prop {String} keys - Keys are identifiers mapped to string weights
+/// @prop {Map} values - Values are numerical representations fo weights
+$font-weights: (
+    'light'  : 100,
+    'regular': 400,
+    'semibold': 600,
+    'bold'   : 700,
+    'black'  : 900
+) !default;
+
+$font-light: map-get($font-weights, 'light');
+$font-regular: map-get($font-weights, 'regular');
+$font-semibold: map-get($font-weights, 'semibold');
+$font-bold: map-get($font-weights, 'bold');
+$font-black: map-get($font-weights, 'black');
+
+/// Relative or absolute URL where all assets are served from
+/// @type String
+/// @example scss - When using a CDN
+///   $root: 'http://cdn.example.com/assets/';
+$root: '/dist' !default;

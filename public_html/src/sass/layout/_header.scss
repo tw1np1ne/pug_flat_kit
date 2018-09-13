@@ -1,0 +1,83 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the header of the site/application.
+// -----------------------------------------------------------------------------
+
+.site-header {
+  @extend .clearfix;
+  background: $very-light-grey;
+  padding: 20px 0;
+
+}
+
+.site-header__logo {
+  color: $brandPrimary;
+  font: {
+    family: $brandFont;
+    size: 2rem;
+    weight: 600;
+  }
+  text: {
+    decoration: none;
+    transform: uppercase;
+  }
+}
+
+// .header {
+//   background-color: $white;
+//   height: $header-height-small;
+//   padding: $grid-gutter-tiny;
+//   box-sizing: border-box;
+//   box-shadow: 0 4px 4px 0 rgba($black, 0.1);
+//   position: fixed;
+//   top: 0;
+//   width: 100%;
+//   z-index: 2;
+//   @include respond-from('large') {
+//     background-color: transparent;
+//     position: static;
+//     box-shadow: none;
+//     display: grid;
+//     grid-template-columns: 0.25fr 1fr;
+//     grid-column-gap: 0;
+//     grid-row-gap: 0;
+//     margin: 0 auto;
+//     align-items: center;
+//     padding-top: 20px;
+//     height: 79px;
+//   }
+//   @include respond-from('huge') {
+//     max-width: $max-width-huge;
+//   }
+//   &__background {
+//     background-size: cover;
+//     @include respond-from('huge') {
+//       background-size: 100% auto;
+//       background-repeat: no-repeat;
+//     }
+//   }
+//   &__logo {
+//     display: block;
+//     width: 120px;
+//     height: 31px;
+//     background-image: url(#{$root + '/img/jellyfish-logo.svg'});
+//     background-size: 120px 31px;
+//     float: left;
+//     background-repeat: no-repeat;
+//   }
+//   &__hamburger {
+//     float: right;
+//     @include respond-from('large') {
+//       display: none;
+//     }
+//   }
+// }
+//
+//
+// /** Fallback for browsers that don't support webp **/
+// .no-webp {
+//   .header {
+//     &__background {
+//       background-image: url(#{$root + '/img/spotlight.jpg'})!important;
+//     }
+//   }
+// }

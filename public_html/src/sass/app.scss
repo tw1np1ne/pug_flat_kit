@@ -1,0 +1,33 @@
+@charset 'UTF-8';
+// -----------------------------------------------------------------------------
+// digital_journeys_2018 main application file.
+// -----------------------------------------------------------------------------
+
+// 1. Configuration and helpers
+@import
+  'abstracts/variables',
+  'abstracts/colors',
+  'abstracts/functions',
+  'abstracts/mixins',
+
+// 2. Vendors
+  'vendor/normalize',
+  'vendor/lazyload/lazyload',
+  'vendor/hamburgers/hamburgers',
+
+// 3. Base stuff
+  'base/base',
+  'base/fonts',
+  'base/typography',
+  'base/helpers',
+
+// 4. Layout-related sections
+  'layout/header',
+  'layout/footer',
+
+// 5. Components
+  'components/panel',
+  'components/primary-navigation',
+
+// 6. Page-specific styles
+  'pages/home';

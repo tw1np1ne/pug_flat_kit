@@ -1,0 +1,25 @@
+// -----------------------------------------------------------------------------
+// When having several themes, this file contains everything related to the
+// default one.
+// -----------------------------------------------------------------------------
+
+[class*="--bg-dark"] {
+  background-color: $gulf-blue;
+  color: $white;
+}
+
+[class*="--bg-light"] {
+  background-color: $white;
+  color: $gulf-blue;
+}
+
+[class*="--primary"] {
+  background-color: $radical-red;
+  color: $white;
+}
+
+.button[class*="--primary"] {
+  &:hover {
+    background-color: tint($radical-red, 10%);
+  }
+}

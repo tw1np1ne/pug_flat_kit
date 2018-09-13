@@ -1,0 +1,26 @@
+.lightbox {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.75);
+  z-index: 2;
+}
+
+.lightbox__video {
+  width: 80%;
+  height: 80%;
+  margin: 60px auto;
+  display: block;
+  border: 0;
+  box-shadow: 0 3px 10px 0 rgba(0,0,0,.2);
+}
+
+.lightbox__button {
+  z-index: 4;
+  position: relative;
+  width: 100px;
+  height: 100px;
+  background: red;
+}

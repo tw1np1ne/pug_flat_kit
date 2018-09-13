@@ -1,0 +1,43 @@
+{
+  "name": "PUG-flat-kit",
+  "version": "1.0.0",
+  "description": "pug_flat_kit",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tw1np1ne/pug_flat_kit.git"
+  },
+  "author": "Russ Kirby",
+  "devDependencies": {
+    "autoprefixer": "^8.6.4",
+    "babel-core": "^6.26.3",
+    "babel-preset-es2015-rollup": "^3.0.0",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^7.0.1",
+    "gulp-cssnano": "^2.1.3",
+    "gulp-load-plugins": "^1.5.0",
+    "gulp-notify": "^3.2.0",
+    "gulp-plumber": "^1.2.0",
+    "gulp-postcss": "^7.0.1",
+    "gulp-pug-linter": "^0.6.0",
+    "gulp-pug": "^4.0.1",
+    "gulp-rename": "^1.3.0",
+    "gulp-sass": "^4.0.1",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-uglify": "^3.0.0",
+    "postcss-extract-media-query": "^1.1.0",
+    "postcss-import": "^11.1.0",
+    "postcss-preset-env": "^5.2.1",
+    "pug": "^2.0.3",
+    "rollup-plugin-babel": "^3.0.7",
+    "rollup-stream": "^1.24.1",
+    "run-sequence": "^2.2.1",
+    "vinyl-buffer": "^1.0.1",
+    "vinyl-source-stream": "^2.0.0",
+    "workbox-build": "^3.3.0",
+    "workbox-sw": "^2.0.0"
+  }
+}

@@ -1,0 +1,31 @@
+doctype html
+html(lang="en")
+  - var title = "Homepage";
+  include layout/head.pug
+
+  body
+
+    include layout/header.pug
+    .main(role="main")
+      .container
+      
+        - var panelModifiers = ""
+        - var panelTitle = "This is a panel"
+        - var panelContent = "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <strong>Ut enim ad minim veniam,</strong> quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"
+        include components/panel.pug
+        
+        - var panelModifiers = "panel--dark "
+        - var panelTitle = "This is a different panel using the same markup"
+        - var panelContent = "<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>"
+        include components/panel.pug
+        
+        h1 This is a pug file
+        p And here is some content
+        p and more
+        
+        ul
+          li list item
+          li list item 2
+          li list item 3
+
+    include layout/footer.pug

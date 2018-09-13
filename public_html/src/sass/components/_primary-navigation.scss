@@ -1,0 +1,27 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the Primary Navigation of the site/application.
+// -----------------------------------------------------------------------------
+
+.primary-nav {
+  float: right;
+}
+
+.primary-nav__list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.primary-nav__item {
+  float: left;
+  margin: 0 10px;
+}
+
+.primary-nav__link {
+  color: $night-rider;
+  font-weight: 600;
+  text: {
+    decoration: none;
+    transform: uppercase;
+  }
+}

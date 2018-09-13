@@ -1,0 +1,7 @@
+img.js-lazyload {
+  filter: blur(5px);
+  transition: all 0.25s linear;
+  &.loaded {
+    filter: blur(0);
+  }
+}

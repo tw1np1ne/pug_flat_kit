@@ -1,0 +1,22 @@
+// -----------------------------------------------------------------------------
+// Basic typography style for copy text
+// -----------------------------------------------------------------------------
+// EXAMPLE
+// =============================================================================
+// body {
+//     color: $text-color;
+//     font: normal 125% / 1.4 $text-font-stack;
+// }
+
+body {
+    font: {
+      family: $bodyFont;
+      size: 14px;
+    }
+    line-height: 28px;
+    @include font-smoothing();
+}
+
+strong {
+  font-weight: $font-bold;
+}

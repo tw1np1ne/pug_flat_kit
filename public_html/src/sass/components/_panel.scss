@@ -1,0 +1,27 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the Panel component
+// -----------------------------------------------------------------------------
+
+.panel {
+  background: $whisper;
+  margin-bottom: 30px;
+
+  &--dark {
+    background: $night-rider;
+    color: $white;
+  }
+}
+
+.panel__title {
+  background: rgba($black, 0.2);
+  padding: 20px;
+
+  h3 {
+    margin: 0;
+    text-transform: uppercase;
+  }
+}
+
+.panel__content {
+  padding: 20px;
+}
