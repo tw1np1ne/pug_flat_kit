@@ -7,11 +7,11 @@ header.site-header
     nav.primary-nav
       ul.primary-nav__list
         li.primary-nav__item
-          a.primary-nav__link.primary-nav__link--active(href="index.html") Home
+          a.primary-nav__link(href="index.html" class=page == 'home' ? "primary-nav__link--active" : "") Home
         li.primary-nav__item
-          a.primary-nav__link(href="index.html") About
+          a.primary-nav__link(href="about.html" class=page == 'about' ? "primary-nav__link--active" : "") About
         li.primary-nav__item
-          a.primary-nav__link(href="index.html") Contact
+          a.primary-nav__link(href="contact.html" class=page == 'contact' ? "primary-nav__link--active" : "") Contact
           
 <!-- HEADER END -->
   

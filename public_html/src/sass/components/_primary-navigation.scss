@@ -24,4 +24,9 @@
     decoration: none;
     transform: uppercase;
   }
+
+  &--active {
+    color: $black;
+    font-weight: 800;
+  }
 }
